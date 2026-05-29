@@ -8,7 +8,7 @@ El laboratorio se compone de dos máquinas virtuales configuradas en una **Red I
 
 ```mermaid
 graph TD
-    subgraph Red Interna (192.168.113.0/24)
+    subgraph "Red Interna (192.168.113.0/24)"
         K[Kali Linux - 192.168.113.131] <-->|Monitoriza y Analiza| D[Debian - 192.168.113.128]
     end
     
